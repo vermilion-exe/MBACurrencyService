@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: mba
+
+server:
+  port: 8081
+
+cbr:
+  base-url: https://cbr.ru/scripts
+  api:
+    get-currencies: /XML_daily.asp
+
+mba:
+  currency-rates:
+    azn: 2.75
+    usd: 2.5
+    eur: 2.5
